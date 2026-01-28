@@ -3,7 +3,7 @@ package com.alibou.ecommerce.product;
 import com.alibou.ecommerce.exception.BusinessException;
 import jakarta.ws.rs.core.MediaType;
 import lombok.RequiredArgsConstructor;
-import lombok.Value;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
